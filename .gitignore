@@ -17,5 +17,6 @@ STM32/RemoteSystemsTempFiles/
 STM32/.metadata/
 STM32/.DS_Store/
 STM32/Embedded-C/.DS_Store/
-STM32/Embedded-C/*/.metadata
+STM32/Embedded-C/instructor/host/.metadata/*
+STM32/Embedded-C/workspace/host/.metadata/*
 STM32/Embedded-C/*/RemoteSystemsTempFiles/

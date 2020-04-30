@@ -36,3 +36,38 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/jonmckay
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-04-30 15:44:30.350
 !MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+!SESSION 2020-04-30 16:09:28.920 -----------------------------------------------
+eclipse.buildId=Version 1.3.1
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/jonmckay/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/jonmckay/Projects/Embedded-Repository/STM32/Embedded-C/workspace/host -keyring /Users/jonmckay/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-04-30 16:09:32.824
+!MESSAGE Log4j initialized with config file /Users/jonmckay/Projects/Embedded-Repository/STM32/Embedded-C/workspace/host/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-30 16:09:34.116
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-04-30 16:09:35.303
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-04-30 16:09:35.753
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 16:10:30.469
+!MESSAGE Indexed '000TestProject' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 1 1 2020-04-30 16:20:08.479
+!MESSAGE No type or version options in toolchain configuration cdt.managedbuild.toolchain.gnu.macosx.exe.debug.1926860736: null; null
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2020-04-30 16:20:08.481
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.Exception: Failed to get disassembly from file: /Users/jonmckay/Projects/Embedded-Repository/STM32/Embedded-C/workspace/host/000TestProject/Debug/000TestProject
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:68)
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:86)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:893)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1223)
+	at java.base/java.lang.Thread.run(Thread.java:832)
