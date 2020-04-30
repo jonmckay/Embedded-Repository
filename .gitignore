@@ -1,3 +1,14 @@
 /.metadata/
-/.jxbrowser-data/*
-/dvt/*
+MSP430/.jxbrowser-data/*
+dvt/*
+MSP430/*/.settings
+MSP430/*/Debug/
+MSP430/*/targetConfigs/
+
+#Project Files
+MSP430/*/RemoteSystemsTempFiles/
+MSP430/*/.ccsproject
+MSP430/*/.cproject
+MSP430/*/.project
+MSP430/*/.launches
+MSP430/*/*.cmd
