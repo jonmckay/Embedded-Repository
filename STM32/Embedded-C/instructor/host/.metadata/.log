@@ -1,0 +1,150 @@
+!SESSION 2020-04-30 15:21:08.873 -----------------------------------------------
+eclipse.buildId=Version 1.2.0
+java.version=1.8.0_202
+java.vendor=AdoptOpenJdk
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/jonmckay/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/jonmckay/Projects/Embedded-Repository/STM32/Embedded-C/instructor/host -keyring /Users/jonmckay/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-04-30 15:21:14.368
+!MESSAGE Log4j initialized with config file /Users/jonmckay/Projects/Embedded-Repository/STM32/Embedded-C/instructor/host/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-30 15:21:15.016
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-04-30 15:21:16.238
+!MESSAGE Started RMI Server, listening on port 41339
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-04-30 15:21:16.705
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:14.124
+!MESSAGE Indexed 'switchCaseArea' (1 sources, 0 headers) in 0.875 sec: 12 declarations; 86 references; 2 unresolved inclusions; 0 syntax errors; 1 unresolved names (1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:14.465
+!MESSAGE Indexed 'union' (1 sources, 0 headers) in 0.163 sec: 6 declarations; 12 references; 2 unresolved inclusions; 0 syntax errors; 2 unresolved names (10%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:14.484
+!MESSAGE Indexed 'ifstatementCastVote' (1 sources, 0 headers) in 0.012 sec: 3 declarations; 10 references; 2 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:14.567
+!MESSAGE Indexed 'forloopNumberPyramid' (1 sources, 0 headers) in 0.019 sec: 9 declarations; 16 references; 2 unresolved inclusions; 0 syntax errors; 3 unresolved names (11%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:14.582
+!MESSAGE Indexed 'ASCII' (1 sources, 0 headers) in 0.008 sec: 8 declarations; 18 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:14.603
+!MESSAGE Indexed 'pointer_1' (1 sources, 0 headers) in 0.013 sec: 7 declarations; 20 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:14.734
+!MESSAGE Indexed 'type_casting' (1 sources, 0 headers) in 0.01 sec: 4 declarations; 3 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:14.749
+!MESSAGE Indexed 'pointer' (1 sources, 0 headers) in 0.008 sec: 5 declarations; 11 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:14.861
+!MESSAGE Indexed 'test' (1 sources, 0 headers) in 0.012 sec: 5 declarations; 5 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:15.092
+!MESSAGE Indexed 'ifelseifTax' (1 sources, 0 headers) in 0.017 sec: 9 declarations; 29 references; 2 unresolved inclusions; 0 syntax errors; 3 unresolved names (7.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:15.312
+!MESSAGE Indexed 'pointer_2' (1 sources, 0 headers) in 0.007 sec: 4 declarations; 13 references; 2 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:15.552
+!MESSAGE Indexed 'WhileLoop1to10' (1 sources, 0 headers) in 0.008 sec: 7 declarations; 7 references; 2 unresolved inclusions; 0 syntax errors; 1 unresolved names (6.7%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:15.858
+!MESSAGE Indexed 'bitWiseEvenOdd' (1 sources, 0 headers) in 0.041 sec: 7 declarations; 12 references; 2 unresolved inclusions; 0 syntax errors; 1 unresolved names (5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:15.949
+!MESSAGE Indexed 'math' (2 sources, 1 headers) in 0.022 sec: 26 declarations; 15 references; 1 unresolved inclusions; 0 syntax errors; 2 unresolved names (4.7%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:16.073
+!MESSAGE Indexed 'function' (1 sources, 0 headers) in 0.009 sec: 11 declarations; 9 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:16.298
+!MESSAGE Indexed 'structInit' (1 sources, 0 headers) in 0.008 sec: 6 declarations; 4 references; 2 unresolved inclusions; 0 syntax errors; 2 unresolved names (17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:16.459
+!MESSAGE Indexed 'dataAlignment' (1 sources, 0 headers) in 0.01 sec: 11 declarations; 24 references; 2 unresolved inclusions; 0 syntax errors; 4 unresolved names (10%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:16.672
+!MESSAGE Indexed 'forLoopEvenNum' (1 sources, 0 headers) in 0.015 sec: 9 declarations; 23 references; 2 unresolved inclusions; 0 syntax errors; 2 unresolved names (5.9%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:16.929
+!MESSAGE Indexed 'ifelseBiggestOfTwo' (1 sources, 0 headers) in 0.015 sec: 10 declarations; 32 references; 2 unresolved inclusions; 0 syntax errors; 1 unresolved names (2.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:17.082
+!MESSAGE Indexed 'whileLoopEvenNum' (1 sources, 0 headers) in 0.035 sec: 9 declarations; 23 references; 2 unresolved inclusions; 0 syntax errors; 2 unresolved names (5.9%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:17.312
+!MESSAGE Indexed 'bitWise2Numbers' (1 sources, 0 headers) in 0.007 sec: 8 declarations; 19 references; 2 unresolved inclusions; 0 syntax errors; 1 unresolved names (3.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:17.679
+!MESSAGE Indexed 'test2' (1 sources, 0 headers) in 0.009 sec: 5 declarations; 8 references; 1 unresolved inclusions; 0 syntax errors; 1 unresolved names (7.1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:18.126
+!MESSAGE Indexed 'structPointer' (1 sources, 0 headers) in 0.093 sec: 12 declarations; 26 references; 2 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:18.486
+!MESSAGE Indexed 'Average' (1 sources, 0 headers) in 0.072 sec: 6 declarations; 14 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:18.496
+!MESSAGE Indexed 'ifelseCastVote' (1 sources, 0 headers) in 0.004 sec: 3 declarations; 9 references; 2 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:18.550
+!MESSAGE Indexed 'structPacketBitfield' (1 sources, 0 headers) in 0.011 sec: 13 declarations; 56 references; 2 unresolved inclusions; 0 syntax errors; 17 unresolved names (20%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:18.567
+!MESSAGE Indexed 'unionBitExraction' (1 sources, 0 headers) in 0.013 sec: 15 declarations; 41 references; 2 unresolved inclusions; 0 syntax errors; 9 unresolved names (14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:18.577
+!MESSAGE Indexed 'structPacket' (1 sources, 0 headers) in 0.007 sec: 13 declarations; 56 references; 2 unresolved inclusions; 0 syntax errors; 17 unresolved names (20%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:18.605
+!MESSAGE Indexed 'constdata' (1 sources, 0 headers) in 0.023 sec: 4 declarations; 7 references; 2 unresolved inclusions; 0 syntax errors; 3 unresolved names (21%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:18.614
+!MESSAGE Indexed 'var_address' (1 sources, 0 headers) in 0.004 sec: 3 declarations; 3 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-04-30 15:22:18.623
+!MESSAGE Indexed 'bitWiseSet' (1 sources, 0 headers) in 0.005 sec: 8 declarations; 12 references; 2 unresolved inclusions; 0 syntax errors; 1 unresolved names (4.8%)
+!SESSION 2020-04-30 15:29:44.434 -----------------------------------------------
+eclipse.buildId=Version 1.2.0
+java.version=1.8.0_202
+java.vendor=AdoptOpenJdk
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/jonmckay/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data file:/Users/jonmckay/Projects/Embedded-Repository/STM32/Embedded-C/instructor/host/ -keyring /Users/jonmckay/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-04-30 15:29:48.775
+!MESSAGE Log4j initialized with config file /Users/jonmckay/Projects/Embedded-Repository/STM32/Embedded-C/instructor/host/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-30 15:29:51.336
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-04-30 15:29:55.383
+!MESSAGE Started RMI Server, listening on port 41340
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-04-30 15:29:55.855
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+!SESSION 2020-04-30 15:45:46.437 -----------------------------------------------
+eclipse.buildId=Version 1.3.1
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/jonmckay/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/jonmckay/Projects/Embedded-Repository/STM32/Embedded-C/instructor/host -keyring /Users/jonmckay/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-04-30 15:45:50.348
+!MESSAGE Log4j initialized with config file /Users/jonmckay/Projects/Embedded-Repository/STM32/Embedded-C/instructor/host/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-30 15:45:52.522
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-04-30 15:45:56.226
+!MESSAGE Started RMI Server, listening on port 41339
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-04-30 15:45:56.667
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties

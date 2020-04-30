@@ -12,3 +12,10 @@ MSP430/*/.cproject
 MSP430/*/.project
 MSP430/*/.launches
 MSP430/*/*.cmd
+
+STM32/RemoteSystemsTempFiles/
+STM32/.metadata/
+STM32/.DS_Store/
+STM32/Embedded-C/.DS_Store/
+STM32/Embedded-C/*/.metadata
+STM32/Embedded-C/*/RemoteSystemsTempFiles/

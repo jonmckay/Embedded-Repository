@@ -1,0 +1,21 @@
+2020-04-30 15:21:14,370 [INFO] Activator:176 - 
+
+
+2020-04-30 15:21:14,372 [INFO] Activator:177 - !SESSION log4j initialized
+2020-04-30 15:21:15,974 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-04-30 15:29:44,115 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] ***WARNING: Display must be created on main thread due to Cocoa restrictions. Use vmarg -XstartOnFirstThread
+2020-04-30 15:29:44,116 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] ***WARNING: Display must be created on main thread due to Cocoa restrictions. Use vmarg -XstartOnFirstThread
+2020-04-30 15:29:48,778 [INFO] Activator:176 - 
+
+
+2020-04-30 15:29:48,781 [INFO] Activator:177 - !SESSION log4j initialized
+2020-04-30 15:29:55,156 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-04-30 15:30:17,617 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] ***WARNING: Display must be created on main thread due to Cocoa restrictions. Use vmarg -XstartOnFirstThread
+2020-04-30 15:30:17,619 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] ***WARNING: Display must be created on main thread due to Cocoa restrictions. Use vmarg -XstartOnFirstThread
+2020-04-30 15:45:50,351 [INFO] Activator:176 - 
+
+
+2020-04-30 15:45:50,353 [INFO] Activator:177 - !SESSION log4j initialized
+2020-04-30 15:45:55,928 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-04-30 15:46:39,305 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] ***WARNING: Display must be created on main thread due to Cocoa restrictions. Use vmarg -XstartOnFirstThread
+2020-04-30 15:46:39,306 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] ***WARNING: Display must be created on main thread due to Cocoa restrictions. Use vmarg -XstartOnFirstThread
