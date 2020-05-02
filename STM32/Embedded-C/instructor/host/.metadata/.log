@@ -240,3 +240,41 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-04-30 16:09:28.676
 !MESSAGE No repository found at https://download.eclipse.org/releases/2019-09.
+!SESSION 2020-05-01 13:46:16.620 -----------------------------------------------
+eclipse.buildId=Version 1.3.1
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/jonmckay/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/jonmckay/Projects/Embedded-Repository/STM32/Embedded-C/instructor/host -keyring /Users/jonmckay/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-05-01 13:46:20.405
+!MESSAGE Log4j initialized with config file /Users/jonmckay/Projects/Embedded-Repository/STM32/Embedded-C/instructor/host/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.core.net 1 0 2020-05-01 13:46:22.473
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-05-01 13:46:27.803
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-05-01 13:46:28.240
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+!SESSION 2020-05-02 14:16:41.432 -----------------------------------------------
+eclipse.buildId=Version 1.3.1
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/jonmckay/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/jonmckay/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-05-02 14:16:46.446
+!MESSAGE Log4j initialized with config file /Users/jonmckay/Projects/Embedded-Repository/STM32/Embedded-C/instructor/host/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.core.net 1 0 2020-05-02 14:16:49.432
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-05-02 14:16:50.941
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-05-02 14:16:51.369
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties

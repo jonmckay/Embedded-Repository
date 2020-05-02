@@ -676,3 +676,12 @@
 2020-04-30 16:33:51,276 [INFO] IntegrityCheckThread:98 - End integrity checks thread
 2020-04-30 16:36:05,716 [INFO] BoardAction:78 - Docs & Resources
 2020-04-30 16:37:01,288 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.25.0
+2020-05-01 00:02:58,056 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] ***WARNING: Display must be created on main thread due to Cocoa restrictions. Use vmarg -XstartOnFirstThread
+2020-05-01 00:02:58,056 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] ***WARNING: Display must be created on main thread due to Cocoa restrictions. Use vmarg -XstartOnFirstThread
+2020-05-01 13:45:59,056 [INFO] Activator:176 - 
+
+
+2020-05-01 13:45:59,059 [INFO] Activator:177 - !SESSION log4j initialized
+2020-05-01 13:46:03,277 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2020-05-01 13:46:16,356 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] ***WARNING: Display must be created on main thread due to Cocoa restrictions. Use vmarg -XstartOnFirstThread
+2020-05-01 13:46:16,357 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] ***WARNING: Display must be created on main thread due to Cocoa restrictions. Use vmarg -XstartOnFirstThread
