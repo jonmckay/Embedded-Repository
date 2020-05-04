@@ -27,6 +27,7 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 	; Set GPIO P1.0 to be an output
 	BIS.B#1, &PADIR_L
 
+MainLoop:
 	; Set output on GPIO P1.0 to high voltage
 	BIS.B#1, &PAOUT_L
 
@@ -36,6 +37,8 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 	; And repeat.
 	BIS.B#1, &PAOUT_L
 	BIC.B#1, &PAOUT_L
+
+	JMP MainLoop
 
 ;-------------------------------------------------------------------------------
 ; Stack Pointer definition
