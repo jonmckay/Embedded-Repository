@@ -28,15 +28,28 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 	BIS.B#1, &PADIR_L
 
 MainLoop:
+
 	; Set output on GPIO P1.0 to high voltage
 	BIS.B#1, &PAOUT_L
+
+	MOV #50000, R4 ; works out to a delay of about 0.2 seconds
+
+DelayOn:
+
+	SUB #1, R4 ; subtract 1 from R4
+	CMP #0, R4 ; compare R4 to 0
+	JNZ DelayOn ; while R4 != 0, keep running DelayOn loop
 
 	; Set output on GPIO P1.0 to low voltage
 	BIC.B#1, &PAOUT_L
 
-	; And repeat.
-	BIS.B#1, &PAOUT_L
-	BIC.B#1, &PAOUT_L
+	MOV #50000, R4
+
+DelayOff:
+
+	SUB #1, R4
+	CMP #0, R4
+	JNZ DelayOff
 
 	JMP MainLoop
 
