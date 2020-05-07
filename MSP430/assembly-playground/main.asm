@@ -56,6 +56,8 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 
 	;JMP MainLoop
 
+	;NOP
+
 ;-------------------------------------------------------------------------------
 ; Program to set GPIO P1.0 to an output (LED) and GPIO P1.1 to an input (button)
 ;-------------------------------------------------------------------------------
@@ -69,6 +71,8 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 MainLoop:	; infinite loop that does nothing
 
 	JMP MainLoop
+
+	NOP
 
 ;-------------------------------------------------------------------------------
 ; Stack Pointer definition
