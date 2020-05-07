@@ -62,16 +62,21 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 ; Program to set GPIO P1.0 to an output (LED) and GPIO P1.1 to an input (button)
 ;-------------------------------------------------------------------------------
 
-	; Set GPIO P1.0 to be an output (PADIR bit == 1)
+	; Set GPIO P1.0 to be an output (PADIR bit 0 == 1)
 	BIS.B	#1, &PADIR_L
 
-	; Set GPIO P1.1 to be an input (PADIR bit == 0)
+	; Set GPIO P1.1 to be an input (PADIR bit 1 == 0)
 	BIC.B	#2, &PADIR_L
+
+	; Set GPIO P1.1 to be pulled up or down (PAREN bit 1 == 1)
+	BIS.B	#2, &PAREN_L
+
+	; Set GPIO P1.1 to use a pull-up resistor (PAOUT bit 1 == 1)
+	BIS.B	#2, &PAOUT_L
 
 MainLoop:	; infinite loop that does nothing
 
 	JMP MainLoop
-
 	NOP
 
 ;-------------------------------------------------------------------------------
