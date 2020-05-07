@@ -59,7 +59,7 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 	;NOP
 
 ;-------------------------------------------------------------------------------
-; Program to set GPIO P1.0 to an output (LED) and GPIO P1.1 to an input (button)
+; Program to toggle a LED with a button press on MSP430 board
 ;-------------------------------------------------------------------------------
 
 	; Set GPIO P1.0 to be an output (PADIR bit 0 == 1)
@@ -74,7 +74,27 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 	; Set GPIO P1.1 to use a pull-up resistor (PAOUT bit 1 == 1)
 	BIS.B	#2, &PAOUT_L
 
-MainLoop:	; infinite loop that does nothing
+MainLoop:
+
+	; Test if GPIO P1.1 input voltage is 0 or 1
+	BIT.B	#2, &PAIN_L
+
+	; If P1.1 == 0, button is pushed: turn on the LED on P1.0
+	JZ TurnOnLED
+
+	; Button is not pushed if we get here.
+	; P1.1 == 1 if we get here, so turn off LED on P1.0
+	BIC.B	#1, &PAOUT_L
+
+	JMP AfterLEDSet
+
+TurnOnLED:
+	; We jumped here because the button is pressed.
+	; Turn on LED and fall through to AfterLEDSet
+	BIS.B	#1, &PAOUT_L
+
+
+AfterLEDSet:
 
 	JMP MainLoop
 	NOP
