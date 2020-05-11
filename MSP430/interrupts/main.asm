@@ -49,6 +49,16 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 	NOP
 	BIS	#GIE, SR
 
+PORT1_ISR:
+
+	; Clear the interrupt flag.
+	BIC	#2, &P1IFG
+
+	; Toggle GPIO P1.0
+	XOR.B	#1, &P1OUT
+
+	RETI
+
 ;-------------------------------------------------------------------------------
 ; Stack Pointer definition
 ;-------------------------------------------------------------------------------
