@@ -42,6 +42,13 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 	; Configure timer to interrupt on overflow.
 	BIS		#TAIE, &TA0CTL
 
+	; Configure timer in continuous mode.
+	; Setting MC to anything other than 0 also starts the timer, so we
+	; want to do this as the last timer configuration step.
+	BIS		#MC_2, &TA0CTL		; MC == 2 selects continuous mode
+
+
+
 ;-------------------------------------------------------------------------------
 ; Stack Pointer definition
 ;-------------------------------------------------------------------------------
