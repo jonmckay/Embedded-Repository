@@ -72,4 +72,5 @@ TA0_ISR:
 ;-------------------------------------------------------------------------------
             .sect   ".reset"                ; MSP430 RESET Vector
             .short  RESET
-            
+            .sect	".int52"
+            .short	TA0_ISR
