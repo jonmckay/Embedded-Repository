@@ -32,6 +32,14 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 	BIS		#GIE, SR
 	NOP
 
+	; Configure ACLK as the timer clock source, with both the
+	; ID and IDEX dividers set to /1.
+	; ACLK runs at 32768 Hz, and so will the timer.
+	BIS		#TASSEL_1, &TA0CTL	; TASSEL == 1 selects ACLK
+	BIS		#ID_0, &TA0CTL		; ID == 0 selects /1
+	BIS		#TAIDEX_0, &TA0EX0	; IDEX == 0 selects /1
+
+
 ;-------------------------------------------------------------------------------
 ; Stack Pointer definition
 ;-------------------------------------------------------------------------------
