@@ -47,6 +47,18 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 	; want to do this as the last timer configuration step.
 	BIS		#MC_2, &TA0CTL		; MC == 2 selects continuous mode
 
+MainLoop:	; Do nothing, all action is in the interrupt
+	JMP MainLoop
+
+TA0_ISR:
+
+	; Clear the interrupt flag.
+	BIC		#TAIFG, &TA0CTL
+
+	; Toggle GPIO P1.0
+	XOR.B	#1, &PAOUT_L
+
+	RETI
 
 
 ;-------------------------------------------------------------------------------
