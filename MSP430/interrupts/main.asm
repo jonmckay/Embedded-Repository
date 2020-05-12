@@ -46,8 +46,14 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 	BIS.B	#2, &P1IE
 
 	; Enable interrupts
-	NOP
+	NOP ; The user's guide recommends a NOP before setting #GIE
 	BIS	#GIE, SR
+	NOP ; The user's guide recommends a NOP after setting #GIE
+
+MainLoop: ; Infinite loop that does nothing
+
+	JMP MainLoop
+	NOP
 
 PORT1_ISR:
 
@@ -70,4 +76,5 @@ PORT1_ISR:
 ;-------------------------------------------------------------------------------
             .sect   ".reset"                ; MSP430 RESET Vector
             .short  RESET
-            
+            .sect	".int47"	; We added these two lines
+            .short	PORT1_ISR	; for configuring our GPIO Port P1 ISR.
