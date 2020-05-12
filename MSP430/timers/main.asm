@@ -39,6 +39,8 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 	BIS		#ID_0, &TA0CTL		; ID == 0 selects /1
 	BIS		#TAIDEX_0, &TA0EX0	; IDEX == 0 selects /1
 
+	; Configure timer to interrupt on overflow.
+	BIS		#TAIE, &TA0CTL
 
 ;-------------------------------------------------------------------------------
 ; Stack Pointer definition
