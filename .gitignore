@@ -24,6 +24,10 @@ STM32/Embedded-C/workspace/host/*/.cmd
 STM32/Embedded-C/workspace/host/.metadata/
 STM32/Embedded-C/workspace/host/*/.settings/
 
+STM32/Embedded-C/*/*/.metadata/
+STM32/*/*/*/.metadata/*
+STM32/*/*/*/.metadata/
+
 STM32/RemoteSystemsTempFiles/
 STM32/.metadata/
 STM32/.DS_Store/
