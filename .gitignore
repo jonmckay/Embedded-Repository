@@ -4,6 +4,8 @@ dvt/*
 MSP430/*/.settings
 MSP430/*/Debug/
 MSP430/*/targetConfigs/
+*/.metadata/
+.metadata
 
 #Project Files
 MSP430/*/RemoteSystemsTempFiles/
@@ -28,6 +30,24 @@ STM32/Embedded-C/*/*/.metadata/
 STM32/*/*/*/.metadata/*
 STM32/*/*/*/.metadata/
 
+STM32/Embedded-C/instructor/host/.metadata/
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Eclipse CDT project files
+.cproject
+.project
+.settings/
+
+# Include makefiles
+!Makefile
+*~
+
+STM32/Embedded-C/workspace/host/*/.settings/
 STM32/RemoteSystemsTempFiles/
 STM32/.metadata/
 STM32/.DS_Store/

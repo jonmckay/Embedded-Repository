@@ -7,22 +7,21 @@
 
 #include <stdio.h>
 
-void function_add_numbers(int, int, int);
+int function_add_numbers(int, int, int);
 
 int main()
 {
-	function_add_numbers(12, 13, 14);
-	function_add_numbers(-20, 20, 14);
+	int retValue;
+	retValue = function_add_numbers(12, 13, 14);
 
-	int valueA = 90, valueB = 70;
-
-	function_add_numbers(valueA, valueB, 90);
+	printf("Sum = %d\n", retValue);
 	return 0;
 }
 
-void function_add_numbers(int a, int b, int c)
+int function_add_numbers(int a, int b, int c)
 {
 	int sum;
 	sum = a+b+c;
-	printf("Sum = %d\n", sum);
+
+	return sum;
 }
