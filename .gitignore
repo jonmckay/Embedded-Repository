@@ -6,6 +6,8 @@ MSP430/*/Debug/
 MSP430/*/targetConfigs/
 */.metadata/
 .metadata
+*.log
+*.xmi
 
 #Project Files
 MSP430/*/RemoteSystemsTempFiles/
