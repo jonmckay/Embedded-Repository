@@ -3236,3 +3236,19 @@
 2020-05-26 16:31:29,204 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: /Users/jonmckay/.stmcufinder/plugins/mcufinder/mcu/cs_comparisons_mx
 2020-05-26 16:31:40,846 [INFO] SearchesSaveLoad:66 - Load user search: STM Disc Board
 2020-05-26 16:32:47,883 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.25.0
+2020-05-26 16:58:39,007 [INFO] MainUpdater:2230 - connection check result : 10
+2020-05-26 16:58:39,007 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2020-05-26 16:58:39,168 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2020-05-26 16:58:39,169 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2020-05-26 16:58:39,746 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2020-05-26 16:58:39,746 [INFO] McuDetailPanel:181 - Set advertising image to /Users/jonmckay/STM32Cube/Repository//PR_STM32Cube_GitHub_0320_V1.png
+2020-05-26 16:58:39,899 [INFO] McuFilterPanel:249 - Update 0 favorites MCUs
+2020-05-26 16:58:40,047 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2020-05-26 16:58:40,047 [INFO] BoardDetailPanel:180 - Set advertising image to /Users/jonmckay/STM32Cube/Repository//PR_STM32Cube_GitHub_0320_V1.png
+2020-05-26 16:58:40,061 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2020-05-26 16:58:40,081 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: /Users/jonmckay/.stmcufinder/plugins/mcufinder/mcu/cs_comparisons_mx
+2020-05-26 16:58:44,644 [INFO] SearchesSaveLoad:66 - Load user search: STM Disc Board
+2020-05-26 16:59:02,185 [INFO] SearchesSaveLoad:215 - Save user search: STMDISCOVERY
+2020-05-26 16:59:08,293 [INFO] SearchesSaveLoad:497 - Delete user search: STM Disc Board
+2020-05-26 16:59:10,544 [INFO] SearchesSaveLoad:66 - Load user search: STMDISCOVERY
+2020-05-26 16:59:45,362 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.25.0

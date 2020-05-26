@@ -1040,3 +1040,9 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/jonmc
 
 !ENTRY org.eclipse.cdt.core 1 0 2020-05-26 16:32:49.660
 !MESSAGE Indexed '001HelloWorld_semihosting' (3 sources, 49 headers) in 0.399 sec: 1,902 declarations; 2,539 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-05-26 16:59:45.404
+!MESSAGE Indexed '002Sizeof' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-05-26 16:59:46.486
+!MESSAGE Indexed '002Sizeof' (3 sources, 49 headers) in 0.246 sec: 1,902 declarations; 2,539 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
