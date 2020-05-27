@@ -28,6 +28,11 @@ STM32/Embedded-C/workspace/host/*/.cmd
 STM32/Embedded-C/workspace/host/.metadata/
 STM32/Embedded-C/workspace/host/*/.settings/
 
+STM32/Embedded-C/workspace/target/.metadata/*
+STM32/Embedded-C/workspace/*/*.metadata/*
+STM32/Embedded-C/workspace/*/*.metadata/
+
+
 STM32/Embedded-C/*/*/.metadata/
 STM32/*/*/*/.metadata/*
 STM32/*/*/*/.metadata/
