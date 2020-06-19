@@ -16,7 +16,17 @@ int main(void)
 	char characterInput6;
 
 	printf("Enter 6 characters: ");
-	scanf("%c %c %c %c %c %c", &characterInput1, &characterInput2, &characterInput3, &characterInput4, &characterInput5, &characterInput6);
+	characterInput1 = getchar();
+	getchar();
+	characterInput2 = getchar();
+	getchar();
+	characterInput3 = getchar();
+	getchar();
+	characterInput4 = getchar();
+	getchar();
+	characterInput5 = getchar();
+	getchar();
+	characterInput6 = getchar();
 
 	printf("ASCII codes: %d %d %d %d %d %d", characterInput1, characterInput2, characterInput3, characterInput4, characterInput5, characterInput6);
 }
