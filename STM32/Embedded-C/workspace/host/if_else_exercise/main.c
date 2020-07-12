@@ -14,10 +14,16 @@ int main(void)
 	float secondNumber = 0;
 
 	printf("Enter a number(integer):");
-	scanf("%f", &firstNumber);
+	if(!scanf("%f", &firstNumber)) {
+		printf("Enter numbers only...Exiting");
+		return 0;
+	}
 
 	printf("Enter a second number(integer):");
-	scanf("%f", &secondNumber);
+	if(!scanf("%f", &secondNumber)) {
+		printf("Enter numbers only...Exiting");
+		return 0;
+	}
 
 	int32_t n1, n2;
 
