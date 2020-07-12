@@ -44,6 +44,7 @@ int main(void)
 			CalculateTrapezoidArea();
 			break;
 		default:
+			printf("Invalid Input");
 			break;
 	}
 }
