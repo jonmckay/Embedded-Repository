@@ -29,4 +29,7 @@ int main(void)
 	characterInput6 = getchar();
 
 	printf("ASCII codes: %d %d %d %d %d %d", characterInput1, characterInput2, characterInput3, characterInput4, characterInput5, characterInput6);
+
+	getchar();
+	return(0);
 }
