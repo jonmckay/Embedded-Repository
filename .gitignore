@@ -62,3 +62,5 @@ STM32/Embedded-C/.DS_Store/
 STM32/Embedded-C/instructor/host/.metadata/*
 STM32/Embedded-C/workspace/host/.metadata/*
 STM32/Embedded-C/*/RemoteSystemsTempFiles/
+
+*.xml
